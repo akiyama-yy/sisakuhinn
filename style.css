@@ -1,0 +1,60 @@
+/* 全体の基本設定 */
+body {
+  font-family: sans-serif;
+  background-color: #f4f4f4;
+  margin: 20px;
+}
+
+/* メインタイトル */
+h1 {
+  color: #333399;
+}
+
+/* 見出し2 */
+h2 {
+  color: #444;
+  margin-top: 20px;
+}
+
+/* 段落 */
+p {
+  line-height: 1.6;
+}
+
+/* リンクの見た目 */
+a {
+  color: #0066cc;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* リスト */
+ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+/* ボタン */
+.button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.button:hover {
+  background-color: #45a049;
+}
+
+/* 画像の調整（任意） */
+img {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-top: 10px;
+}
